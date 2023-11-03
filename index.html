@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="#">PABC</a>
+        <nav class="nav">
+          <ul class="main-nav">
+            <li class="main-nav__list">
+              <a class="link" href="#hero" data-id="hero">Accueil</a>
+            </li>
+            <li class="main-nav__list">
+              <a class="link" href="#about" data-id="about">A propos</a>
+            </li>
+            <li class="main-nav__list">
+              <a class="link" href="#projects" data-id="projects">Projets</a>
+            </li>
+            <li class="main-nav__list">
+              <a class="link" href="#blog" data-id="blog">Articles</a>
+            </li>
+            <li class="main-nav__list">
+              <a class="link" href="#contact" data-id="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section-hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Faire d'abidjan, un Pôle touristique et économique de la Côte
+            d'Ivoire
+          </h1>
+          <p class="hero-description">
+            Résoudre de manière durable, le problème de pollution de la Baie de
+            Cocody à travers la dépollution du Plan d'eau lagunaire, la
+            suppression des inondations au carrefour de l'Indenie et
+            l'amélioration de la fluidité routière
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn--primary">Nous contacter</a>
+            <a href="#about" class="btn btn--outline esp"
+              >En savoir plus &darr;</a
+            >
+          </div>
+        </div>
+        <img src="images/DJI_0126.JPG" alt="Pont de Cocody" class="hero-img" />
+      </div>
+    </section>
+    <section class="section-funding">
+      <div class="container funding-container">
+        <div class="section-header">
+          <p class="heading-subtitle">Les fonds du projet</p>
+          <h2 class="heading-title">Financements</h2>
+        </div>
+        <div class="section-funding-body">
+          <img src="images/logo_ci.png" alt="Côte d'Ivoire" />
+          <img src="images/logo_bid.jpg" alt="BID" />
+          <img src="images/logo_badea.jpg" alt="BADEA" />
+          <img src="images/logo_ofid.jpg" alt="OFID" />
+          <img src="images/logo_fkdea.jpg" alt="Fonds Kowéitien" />
+        </div>
+      </div>
+    </section>
+    <section class="section-about" id="about">
+      <div class="container about-container">
+        <div class="section-about-description">
+          <div class="section-header">
+            <p class="heading-subtitle">Qui sommes-nous</p>
+            <h2 class="heading-title">Description du Projet</h2>
+          </div>
+          <div class="section-description">
+            <p>
+              Initié en 2014 par le gouvernement ivoirien dans le cadre de la
+              mise en oeuvre des activités de Développement de la Côte d'Ivoire,
+              le Projet de Sauvegarde et de Valorisation de la Baie de Cocody et
+              de la Lagune Ebrié (PABC) se réalise en deux (02) tranches.
+            </p>
+            <p>
+              Les travaux de la première tranche achévés en 2018 et les travaux
+              de la deuxième tranche en cours de livraison.
+            </p>
+            <ul class="list">
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Dépolluer durabblement</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Supprimer les inondations</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Améliorer la fluidité du traffic routier</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Rendre attractive et valoriser les investissements</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-about-body">
+          <div class="section-about-card blue">
+            <i class="fa-solid fa-droplet card-icon"></i>
+            <h4 class="card-title">Plan Bleu</h4>
+            <p>Hydraulique et renouvellement des eaux</p>
+          </div>
+          <div class="section-about-card green">
+            <i class="fa-solid fa-leaf card-icon"></i>
+            <h4 class="card-title">Plan Vert</h4>
+            <p>Aménagement paysager de la Baie</p>
+          </div>
+          <div class="section-about-card grey">
+            <i class="fa-solid fa-bridge card-icon"></i>
+            <h4 class="card-title">Plan Gris</h4>
+            <p>Amélioration de la mobilité du traffic</p>
+          </div>
+          <div class="section-about-card white">
+            <i class="fa-solid fa-umbrella-beach card-icon"></i>
+            <h4 class="card-title">Plan Blanc</h4>
+            <p>Valorisation de la Baie de Cocody</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-projects" id="projects">
+      <div class="container projects-container">
+        <div class="section-header center">
+          <p class="heading-subtitle">Que faisons-nous</p>
+          <h2 class="heading-title">Les activités importantes réalisées</h2>
+        </div>
+        <article class="article">
+          <div class="article-text">
+            <i class="fa-solid fa-bridge card-icon"></i>
+            <h3 class="article-heading">Pont de Cocody</h3>
+            <p class="article-description">
+              Le pont de Cocody ou pont Alassane Ouattara est un pont routier à
+              haubans à Abidjan. Il relie les communes de Cocody et du Plateau.
+            </p>
+            <ul class="list">
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Relie les communes de Cocody et du Plateau</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Désengorge le carrefour de l'Indenié</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Réduction considérable du temps de déplacement</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span
+                  >Rendre attractive et valoriser les investissements dans la
+                  zone</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="article-img">
+            <img src="images/DJI_0028.webp" alt="Pont de Cocody" />
+          </div>
+        </article>
+        <article class="article">
+          <div class="article-text">
+            <i class="fa-solid fa-droplet card-icon"></i>
+            <h3 class="article-heading">Bassin Ecrêteur</h3>
+            <p class="article-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+              animi placeat quod, nemo sequi quaerat harum. Facilis sunt est
+              libero.
+            </p>
+            <ul class="list">
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>L’aménagement de l’emprise des travaux</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>La construction d’une digue en terre</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span
+                  >La construction d’un déversoir à seuil libre suivi d’un
+                  coursier</span
+                >
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span
+                  >La construction d’un ouvrage de vidange de la retenue</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="article-img">
+            <img src="images/bassin écrêteur.webp" alt="Bassin écrêteur" />
+          </div>
+        </article>
+        <article class="article">
+          <div class="article-text">
+            <i class="fa-solid fa-leaf card-icon"></i>
+            <h3 class="article-heading">Coulée Verte</h3>
+            <p class="article-description">
+              Le Projet d'Aménagement de la Coulée verte du Banco à pour
+              objectif de restructurer et de préserver l'environnement dans les
+              secteurs concernés.
+            </p>
+            <ul class="list">
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Stabiliser les sols dans le bassin du Gourou</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Réguler les eaux de drainages</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Réduire les apports solides vers la Baie de Cocody</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Mettre en place un parcours touristique</span>
+              </li>
+            </ul>
+          </div>
+          <div class="article-img">
+            <img src="images/coulée verte.webp" alt="Bassin écrêteur" />
+          </div>
+        </article>
+        <article class="article">
+          <div class="article-text">
+            <i class="fa-solid fa-umbrella-beach card-icon"></i>
+            <h3 class="article-heading">Embouchure de Grand-Bassam</h3>
+            <p class="article-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+              animi placeat quod, nemo sequi quaerat harum. Facilis sunt est
+              libero.
+            </p>
+            <ul class="list">
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Dépolluer durabblement</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Supprimer les inondations</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Améliorer la fluidité du traffic routier</span>
+              </li>
+              <li class="list__item">
+                <i class="fa-solid fa-check list-icon"></i
+                ><span>Rendre attractive et valoriser les investissements</span>
+              </li>
+            </ul>
+          </div>
+          <div class="article-img">
+            <img src="images/DJI_0005.webp" alt="Embouchure de Grand Bassam" />
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section-blog" id="blog"></section>
+    <section class="section-contact" id="contact"></section>
+    <footer class="footer"></footer>
+    <script src="js/script.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e19a49893e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
