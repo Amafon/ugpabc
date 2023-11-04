@@ -59,12 +59,13 @@ li {
 }
 
 .section-header {
-  padding: 2.5rem 0 3rem 0;
+  padding: 6rem 0 3rem 0;
 }
 
 .funding-container,
 .about-container,
-.projects-container {
+.projects-container,
+.blog-container {
   padding: 6rem 1rem;
 }
 
@@ -380,4 +381,45 @@ img {
 .article-description {
   margin-bottom: 1rem;
   line-height: 2;
+}
+
+/*******************/
+/* Blog Section  */
+/*******************/
+.billet-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  gap: 1rem 5rem;
+  padding: 6rem 0;
+}
+
+.billet {
+  box-shadow: 0 4px 11px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.billet:hover {
+  transform: scale(1.1);
+}
+
+.billet-header {
+  width: 100%;
+}
+
+.billet-body {
+  padding: 3rem;
+}
+
+.blog-info {
+  margin-bottom: 1rem;
+}
+
+.blog-title {
+  margin-bottom: 1.5rem;
+}
+
+.blog-extract {
+  margin-bottom: 1.5rem;
 }
