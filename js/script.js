@@ -1,6 +1,8 @@
 const mainNavEl = document.querySelector(".main-nav");
+const menuEl = document.querySelector(".menu");
 const espEl = document.querySelector(".esp");
 const sectionEsp = document.querySelector("#about");
+const headerContainerEl = document.querySelector(".header-container");
 
 mainNavEl.addEventListener("click", function (e) {
   e.preventDefault();
@@ -14,4 +16,8 @@ mainNavEl.addEventListener("click", function (e) {
 espEl.addEventListener("click", function (e) {
   e.preventDefault();
   sectionEsp.scrollIntoView({ behavior: "smooth" });
+});
+
+menuEl.addEventListener("click", function () {
+  headerContainerEl.classList.toggle("hidden");
 });

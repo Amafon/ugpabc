@@ -10,13 +10,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
+      <div class="container header-container hidden">
         <a class="logo" href="#">PABC</a>
+        <i class="fa-solid fa-bars menu"></i>
         <nav class="nav">
           <ul class="main-nav">
             <li class="main-nav__list">
@@ -337,13 +337,13 @@
       </div>
     </section>
     <section class="section-contact" id="contact">
-      <div class="container">
+      <div class="container contact">
         <div class="section-header center">
           <p class="heading-subtitle">Que voulez-vous savoir</p>
-          <h2 class="heading-title">Contact</h2>
+          <h2 class="heading-title">
+            Laissez-nous vos cordonnées et nous vous rappellerons
+          </h2>
         </div>
-      </div>
-      <div class="container contact">
         <form action="#" class="form">
           <div class="input-group">
             <label for="name">Nom</label>
@@ -372,15 +372,70 @@
               placeholder="Enter your email adress"
             />
           </div>
-          <input type="submit" value="Send your message" />
+          <input class="btn btn--primary" type="submit" value="Contactez-moi" />
         </form>
       </div>
     </section>
-    <footer class="footer"></footer>
-    <script src="js/script.js" crossorigin="anonymous"></script>
+    <footer class="section-footer">
+      <div class="container footer">
+        <div class="footer-main">
+          <a class="logo" href="#">PABC</a>
+          <div class="main-det">
+            <p>Unité de Gestion - MOD</p>
+            <p>
+              Téléphone: <a href="tel:00225 27 22 50 92 92">27 22 50 92 92</a>
+            </p>
+            <p>
+              Email: <a href="mailto:contact@ugpabc.com">contact@ugpabc.com</a>
+            </p>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+        <div class="footer-content">
+          <p>Navigation</p>
+          <ul class="footer-list">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <p>Documents Projets</p>
+          <ul class="footer-list">
+            <li><a href="#">Comité de Pilotage</a></li>
+            <li><a href="#">Modification Comité</a></li>
+            <li><a href="#">Passation des Marchés</a></li>
+            <li><a href="#">Création Unité de Gestion</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <p>Partenaires</p>
+          <ul class="footer-list">
+            <li><a href="#">Bailleurs</a></li>
+            <li><a href="#">Ministères</a></li>
+            <li><a href="#">Agence d'Exécution</a></li>
+            <li><a href="#">AMO et Missions de Contrôle</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <p>Parties Prenantes</p>
+          <ul class="footer-list">
+            <li><a href="#">Direction de la Douane</a></li>
+            <li><a href="#">Dette Publique</a></li>
+            <li><a href="#">Contrôle Financier</a></li>
+            <li><a href="#">Agence Comptable</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://kit.fontawesome.com/e19a49893e.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/script.js" crossorigin="anonymous"></script>
   </body>
 </html>
