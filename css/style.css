@@ -68,7 +68,7 @@ li {
 }
 
 .section-header {
-  padding: 6rem 0 3rem 0;
+  /* padding: 6rem 0 3rem 0; */
 }
 
 .funding-container,
@@ -482,7 +482,7 @@ img {
   grid-template-columns: repeat(3, 300px);
   justify-content: center;
   gap: 1rem 5rem;
-  padding: 6rem 0;
+  padding: 6rem 0 0 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -581,7 +581,7 @@ img {
 /*******************/
 
 .section-footer {
-  padding: 9.6rem 1rem;
+  padding: 6rem 1rem;
 }
 
 .footer {
