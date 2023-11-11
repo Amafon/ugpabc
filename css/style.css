@@ -436,6 +436,10 @@ img {
   gap: 2rem 6rem;
 }
 
+.article:last-of-type {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .article {
     grid-template-columns: 1fr;
